@@ -1,7 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>New Site!</h1>
-<p>I'm currently working on developing this page with my projects. Look out for more!!</p>
-</body>
-</html>
