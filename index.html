@@ -1,86 +1,196 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--==================== UNICONS ====================-->
-        
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css">
 
-        <title>Nathan Asbury</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-          Welcome to my Site
-        </header>
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+    <title>Nathan Asbury</title>
+    <style>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .banner {
+            width: 100%;
+            height: 200px; /* Adjust as needed */
+            background-color: #f0f0f0; /* Placeholder color */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+        .portfolio-item {
+            text-align: center;
+        }
+        .portfolio-item h3 {
+            font-size: 1.5rem; /* Adjust the font size as needed */
+            margin-top: 20px; /* Add space between the image and the title */
+        }
+    </style>
+</head>
+<body>
+    <!-- BANNER -->
+    <div class="banner">
+        <h1>Welcome to Nathan Asbury's Portfolio</h1>
+    </div>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container">
+            <h1>Welcome to my Site</h1>
+        </div>
+    </header>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+    <!-- MAIN -->
+    <main class="main">
+        <!-- HOME -->
+        <section class="home section" id="home">
+            <div class="container">
+                <h2>Hello, I'm Nathan Asbury</h2>
+                <p>Welcome to my portfolio website.</p>
+            </div>
+        </section>
 
-            </section>
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate web developer with a focus on front-end development. I have a Bachelor's degree in Computer Science and several years of experience building responsive and user-friendly websites.</p>
+                <p>My interests include UI/UX design, responsive web design, and exploring new technologies.</p>
+            </div>
+        </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+        <!-- SKILLS -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <div class="skill">
+                        <i class="uil uil-brackets-curly"></i>
+                        <span>HTML5 & CSS3</span>
+                    </div>
+                    <div class="skill">
+                        <i class="uil uil-javascript"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill">
+                        <i class="uil uil-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill">
+                        <i class="uil uil-node-dot-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            </section>
+        <!-- QUALIFICATION -->
+        <section class="qualification section">
+            <div class="container">
+                <h2>Qualifications</h2>
+                <ul>
+                    <li>Bachelor's Degree in Computer Science - University XYZ</li>
+                    <li>Certification in Web Development - Online Course Platform</li>
+                </ul>
+            </div>
+        </section>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+        <!-- SERVICES -->
+        <section class="services section" id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <p>I offer web development services including front-end development, responsive design, and website optimization.</p>
+            </div>
+        </section>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Project 1</h3>
+                        <p>Description of project 1.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Project 2</h3>
+                        <p>Description of project 2.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+        <!-- PROJECT IN MIND -->
+        <section class="project section">
+            <div class="container">
+                <h2>Project in Mind</h2>
+                <p>I'm currently working on an e-commerce website that focuses on selling handmade crafts.</p>
+            </div>
+        </section>
 
-            </section>
+        <!-- TESTIMONIAL -->
+        <section class="testimonial section">
+            <div class="container">
+                <h2>Testimonials</h2>
+                <div class="testimonial-item">
+                    <blockquote>"Nathan is an exceptional developer. His attention to detail and creativity have greatly contributed to the success of our project." - John Doe, CEO</blockquote>
+                </div>
+            </div>
+        </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
+        <!-- CONTACT ME -->
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+       <!-- CONTACT FORM -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="send_email.php" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
 
-            </section>
-        </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Nathan Asbury. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="uil uil-arrow-up"></i>
+    </a>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-         
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+    <!-- SWIPER JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
-
-        <!--==================== MAIN JS ====================-->
-        <script src=""></script>
-    </body>
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
+</body>
 </html>
+
