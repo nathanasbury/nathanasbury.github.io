@@ -20,18 +20,24 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-        .banner {
-            background-image: url('assets/img/banner.jpg'); /* Add your image URL here */
+   .banner {
+    background-image: url('assets/img/banner.jpg'); /* Add your image URL here */
     background-size: cover; /* Cover the entire div */
     background-position: center; /* Center the background image */
-    color: white; /* Text color */
+    color: white; /* Changed text color to white for better contrast */
     text-align: center; /* Align text to the center */
-    padding: 50px 0; /* Add some padding */
-        }
-        .banner h1 {
-            font-size: 2.5rem;
-            color: #333;
-        }
+    padding: 100px 0; /* Add some padding */
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    color: white; /* Ensuring text color is white for contrast */
+    text-shadow: 2px 2px 4px #000000; /* Adds a black shadow for better legibility */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background */
+    display: inline; /* Makes the background only as wide as the text */
+    padding: 5px 10px; /* Adds some padding around the text */
+}
+
         .portfolio-item {
             text-align: center;
         }
